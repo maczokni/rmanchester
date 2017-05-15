@@ -1,0 +1,82 @@
+.title-slide {
+   
+    background-color: #ffffff
+	
+}
+
+
+.title-slide hgroup {
+  position: absolute;
+  width: auto;
+  height: auto;
+  right: 100px;
+  bottom: 100px;
+}
+
+/* make the text white on the title slide and aligned to the bottom */
+.title-slide hgroup > h1, 
+.title-slide hgroup > h2,
+.title-slide hgroup > p {
+  margin:100;
+  color: black ;  /*white*/
+  text-align: center;
+}
+
+slides > slide.title-slide hgroup h1 {
+  font-size: 36pt;
+}
+
+slides > slide.title-slide hgroup h4 {
+  font-size: 48pt;
+}
+
+
+
+aside.gdbar {
+  width: 300px !important;
+  height: 100px !important;
+}
+.gdbar img {
+  width: 200px !important;
+}
+
+slides > slide:not(.nobackground):before {
+  width: 85px;
+  height: 50px;
+  background-size: 85px 50px;
+}
+
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+/* make the colour purple of the headers */
+h1 { color: #660099; }
+h2 { color: #660099; }
+h3 { color: #660099; }
+h4 { color: #660099; }
+h5 { color: #660099; }
+h6 { color: #660099; }
+
+/* format the paragaphs here they are just black text */
+p {
+	
+    color: #000000;
+}
+
+.reveal section p1 {
+  
+    color: #000000;
+    font-size: 12pt;
+}
+
+
+body { 
+    margin: 0 0 0 )px; /* top = header height */
+    padding: 25px;
+}
+
+
+
