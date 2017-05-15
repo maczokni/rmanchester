@@ -74,7 +74,10 @@ ggplot(dat, aes(x, y, size = z)) + geom_point() +
 - Downloading packages
 - Security concerns
 - Training support
-- ++
+    + [User Group](https://github.com/RClubCoders)
+    + Lunchtime sessions
+
+
 
 ##Example: TfL API
 
@@ -111,7 +114,7 @@ accidents <- data.frame(lapply(as.data.frame(d), as.character), stringsAsFactors
 ```
 
 ##
-<h3> But once we got it we could use it ! </h3>
+<h3> But once we got it... </h3>
 
 ##Choropleth maps
 
